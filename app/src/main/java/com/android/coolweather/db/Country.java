@@ -19,7 +19,7 @@ public class Country extends DataSupport {
     /**
      * 县所对应的天气id
      */
-    private int weatherId;
+    private String weatherId;
     /**
      * 县所属的城市id值
      */
@@ -49,11 +49,11 @@ public class Country extends DataSupport {
         this.cityId = cityId;
     }
 
-    public int getWeatherId() {
+    public String getWeatherId() {
         return weatherId;
     }
 
-    public void setWeatherId(int weatherId) {
+    public void setWeatherId(String weatherId) {
         this.weatherId = weatherId;
     }
 }
